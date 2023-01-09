@@ -39,6 +39,10 @@ textarea
     resize: none;
 }
 
+
+
+
+
 .main-nav
 {
     align-items: center;
@@ -53,7 +57,7 @@ textarea
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    width: 1158px;
+    /* width: 1158px; */
 }
 
 .list
@@ -1279,3 +1283,108 @@ textarea
      overflow: hidden;
  }
  
+
+
+
+
+
+
+ @media screen and (max-width: 481px){
+    .container
+    {
+       max-width: 480px;
+       margin-left: auto;
+       margin-right: auto;
+       padding-left: 15px;
+       padding-right: 15px;
+    }
+
+    .section-title
+    {
+        
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 481px;
+        min-width: 320px;
+    }
+    .overlay
+    {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 481px;
+    }
+    .recomends>li:not(:last-child)
+    {
+        margin-bottom: 72px;
+    }
+    .color-title
+    {
+        text-align: center;
+    }
+    .recomends>li:not(:first-child)
+    {
+        min-width: 320px;
+        max-width: 481px;
+        margin-left: 0;
+    }
+    .recomends
+    {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        
+        max-width: 481px;
+    }
+    .img
+    {
+        flex-direction: column;
+    }
+    }
+
+@media screen and (min-width: 768px){
+    .container
+    {
+       
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 1200px;
+    }
+
+    .section-title
+    {
+        width: 768px;
+        min-width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 1200px;
+    }
+    }
+
+
+@media screen and (min-width: 1200px){
+    .container
+    {
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .section-title
+    {
+        width: 1200px;
+        min-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    }
