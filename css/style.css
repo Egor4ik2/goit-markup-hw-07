@@ -1293,10 +1293,11 @@ textarea
 /* адаптивні медіа данні */
 
 
-
- @media screen and (max-width: 481px){
+/* 
+ @media screen and (max-width: 767px){
     .container
     {
+    
        margin-left: auto;
        margin-right: auto;
        padding-left: 15px;
@@ -1304,26 +1305,33 @@ textarea
     }
     .studio-title
     {
+        
         margin: 0;
-        /* margin-right: 250px; */
+     
     }
 
     .header
     {
+        
         position: relative;
     }
     .header > .container 
     {
+        
         justify-content: space-between;
     }
-    /* .navigation
-    {
-        display: none;
-    }
-    .contact
+     /* .navigation
     {
         display: none;
     } */
+
+
+    /* .contact
+    {
+        display: none;
+    }  */
+
+/* 
     .section-title
     {
         
@@ -1331,10 +1339,11 @@ textarea
         margin-right: auto;
         padding-left: 15px;
         padding-right: 15px;
-        min-width: 320px;
+        
     }
     .overlay
     {
+        
         margin-left: auto;
         margin-right: auto;
         padding-left: 15px;
@@ -1342,20 +1351,23 @@ textarea
     }
     .recomends>li:not(:last-child)
     {
+        
         margin-bottom: 72px;
     }
     .color-title
     {
+        
         text-align: center;
     }
     .recomends> li:not(:first-child)
     {
- 
+        
         margin-left: 0;
       
     }
     .recomends
     {
+        
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -1365,7 +1377,7 @@ textarea
  
     .color-card
     {
-
+        
         width: 260px;
     }
   
@@ -1375,48 +1387,58 @@ textarea
     }
     .section
     {
+        
         display: none;
     }
 
     .customers
     {
-       flex-wrap: wrap;
+        
+        flex-wrap: wrap;
         justify-content: center;
     }
     .footer > .container
     {
+        
         flex-direction: column;
        
     }
     .form-footer
     {
+        
         flex-direction: column;
     }
 
     .footer-logo
     {
+        
         margin-right: 0;
     }
     .footer-logo > .text
     {
+        
         margin-bottom: 72px;
     }
     .social-media
     {
+        
         margin-right: 0;
         margin-bottom: 72px;
     }
     .label-footer
     {
+        
         margin-left: 43%;
     }
     .button-footer
     {
+        
         margin-top: 0;
     }
 
     .menu-button
     {
+        
         display: inline-flex;
         margin: 0;
         padding: 0;
@@ -1428,6 +1450,7 @@ textarea
     
     .menu-container
     {
+        
         display: none;
         position: absolute;
         top: 100%;
@@ -1435,18 +1458,31 @@ textarea
         width: 100%;
         height: 796px;
     
-        background-color: #F4F4FD;
-    
+        background-color: #FFFFFF;
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     }
-    
-    .mobile-contact, .mobile-navigation
+    .navigation
     {
-    
-      
+       
+        flex-direction: column;
+    }
+    .item
+    {
+        margin-left: 40px;
+        margin-right:0; 
     }
     
+    .contact
+    {
+        flex-direction: column-reverse;
+    }
+    .color-contact
+    {
+        color: var(--main-color-blue);
+    }
     .menu-container.is-open
     {
+        
         display: block;
     }
 
@@ -1454,25 +1490,36 @@ textarea
 
     .menu-button  .icon-cross
     {
+        
         display: none;
     }
     
     .menu-button.is-open .icon-cross
     {
+        
         display: block;
     }
     
     .menu-button.is-open .icon-menu
     {
+        
         display: none;
     }
     
-    
+    .item.underline::after
+    {
+        display: none;
+        
+    }
 
+    .studio-color
+    {
+        color: var(--main-color-text);
+    }
 
     /* portfolio adaptive code */
 
-
+/* 
     .nav-portfolio
     {
         flex-wrap: wrap;
@@ -1526,7 +1573,8 @@ textarea
         padding-left: 15px;
         padding-right: 15px;
     }
-    }
+    } */
+  
 
 
 
@@ -1535,9 +1583,6 @@ textarea
 
 
 
-
-
-    /* мобільне мнею */
 
 
 
