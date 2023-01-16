@@ -1,266 +1,351 @@
-.container
-    {
+// .container
+//     {
     
-       margin-left: auto;
-       margin-right: auto;
-       padding-left: 15px;
-       padding-right: 15px;
-       @media screen and(max-width: 480px)
-       {
-        width:481px;
-       }
+     
+//        @media screen and(max-width: 480px)
+//        {
+//         width:481px;
+//         margin-left: auto;
+//         margin-right: auto;
+//         padding-left: 15px;
+//         padding-right: 15px;
+//        }
 
-        @media screen and(min-width:768px) {
+//         @media screen and(min-width:768px) {
             
-        }
-    }
-    .studio-title
-    {
+//         }
+//     }
+//     .studio-title
+//     {
         
       
-        @media screen and(max-width: 480px)
-        {
-            margin: 0;
-        }
-    }
+//         @media screen and(max-width: 480px)
+//         {
+//             margin: 0;
+//         }
+//     }
 
-    .header
-    {
-        @media screen and(max-width: 480px)
-        {
-            position: relative;
-        }
+//     .header
+//     {
+//         @media screen and(max-width: 480px)
+//         {
+//             position: relative;
+//         }
        
-    }
-    .header > .container 
-    {
-        @media screen and(max-width: 480px)
-        {
-            justify-content: space-between;
-        }
+//     }
+//     .header > .container 
+//     {
+//         @media screen and(max-width: 480px)
+//         {
+//             justify-content: space-between;
+//         }
        
-    }
-    .navigation
-    {
-        @media screen and(max-width: 480px)
-        {
-           display:none;
-        }
+//     }
+//     .navigation
+//     {
+//         @media screen and(max-width: 480px)
+//         {
+//            display:none;
+//         }
        
-    } 
+//     } 
 
 
-    .contact
-    {
+//     .contact
+//     {
  
-           @media screen and(max-width: 480px)
-        {
-           display:none;
-        }
-    }  
+//            @media screen and(max-width: 480px)
+//         {
+//            display:none;
+//         }
+//     }  
 
 
-    .section-title
-    {
+//     .section-title
+//     {
         
        
-        @media screen and(max-width: 480px)
-        {
-            margin-left: auto;
-            margin-right: auto;
-            padding-left: 15px;
-            padding-right: 15px;
-        }
-    }
-    .overlay
-    {
+//         @media screen and(max-width: 480px)
+//         {
+//             margin-left: auto;
+//             margin-right: auto;
+//             padding-left: 15px;
+//             padding-right: 15px;
+//         }
+//     }
+//     .overlay
+//     {
         
-      @media screen and  (max-width:480)
-      {  margin-left: auto;
-        margin-right: auto;
-        padding-left: 15px;
-        padding-right: 15px;
+//       @media screen and  (max-width:480)
+//       {  margin-left: auto;
+//         margin-right: auto;
+//         padding-left: 15px;
+//         padding-right: 15px;
         
-      }
-    }
-    .recomends>li:not(:last-child)
-    {
+//       }
+//     }
+//     .recomends>li:not(:last-child)
+//     {
            
-      @media screen and  (max-width:480)
-      {  margin-bottom: 72px;
+//       @media screen and  (max-width:480)
+//       {  margin-bottom: 72px;
         
-      }
+//       }
         
-    }
-    .color-title
-    {
-        @media screen and  (max-width:480)
-        {
-            text-align: center;
-        }
+//     }
+//     .color-title
+//     {
+//         @media screen and  (max-width:480)
+//         {
+//             text-align: center;
+//         }
        
-    }
-    .recomends> li:not(:first-child)
-    {
-        @media screen and  (max-width:480)
-        {
-            margin-left: 0;
-        }
+//     }
+//     .recomends> li:not(:first-child)
+//     {
+//         @media screen and  (max-width:480)
+//         {
+//             margin-left: 0;
+//         }
         
       
-    }
-    .recomends
-    {
+//     }
+//     .recomends
+//     {
         
        
-        @media screen and  (max-width:480)
-        {
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+//         @media screen and  (max-width:480)
+//         {
+//             text-align: center;
+//             display: flex;
+//             flex-direction: column;
+//             align-items: center;
+//         }
         
-    }
+//     }
  
-    .color-card
-    {
+//     .color-card
+//     {
+//         @media screen and  (max-width:480)
+//         {
+//             width: 260px;
+//         }
         
-        width: 260px;
-    }
+//     }
   
-    .icon
-    {
-        display: none;
-    }
-    .section
-    {
-        
-        display: none;
-    }
-
-    .customers
-    {
-        
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .footer > .container
-    {
-        
-        flex-direction: column;
+//     .icon
+//     { 
+//         @media screen and  (max-width:480)
+//         {
+//             display: none;
+//         }
        
-    }
-    .form-footer
-    {
-        
-        flex-direction: column;
-    }
+//     }
+//     .section
+//     {
+//         @media screen and  (max-width:480)
+//         {
+//             display: none;
+//         }
+   
+//     }
 
-    .footer-logo
-    {
-        
-        margin-right: 0;
-    }
-    .footer-logo > .text
-    {
-        
-        margin-bottom: 72px;
-    }
-    .social-media
-    {
-        
-        margin-right: 0;
-        margin-bottom: 72px;
-    }
-    .label-footer
-    {
-        
-        margin-left: 43%;
-    }
-    .button-footer
-    {
-        
-        margin-top: 0;
-    }
-
-    .menu-button
-    {
-        
-        display: inline-flex;
-        margin: 0;
-        padding: 0;
-        border: none;
-        background-color: transparent;
-        cursor: pointer;
-    } 
-
-    
-    .menu-container
-    {
-        
-        display: none;
-        position: absolute;
-        top: 100%;
-        left:0;
-        width: 100%;
-        height: 796px;
-    
-        background-color: #FFFFFF;
-        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    }
-    .navigation
-    {
+//     .customers
+//     {
+//         @media screen and  (max-width:480)
+//         {
+//             flex-wrap: wrap;
+//             justify-content: center;
+//         }
        
-        flex-direction: column;
-    }
-    .item
-    {
-        margin-left: 40px;
-        margin-right:0; 
-    }
-    
-    .contact
-    {
-        flex-direction: column-reverse;
-    }
-    .color-contact
-    {
-        color: var(--main-color-blue);
-    }
-    .menu-container.is-open
-    {
+//     }
+//     .footer > .container
+//     {
+//         @media screen and  (max-width:480)
+//         {
+//             flex-direction: column;
+//         }
+       
+       
+//     }
+//     .form-footer
+//     {
+//         @media screen and  (max-width:480)
+//         {
+//             flex-direction: column;
+//         }
+//     }
+
+//     .footer-logo
+//     {
+//         @media screen and  (max-width:480)
+//         {
+//             margin-right: 0;
+//         }
+       
+//     }
+//     .footer-logo > .text
+//     {
+//         @media screen and  (max-width:480)
+//         {
+//             margin-bottom: 72px;
+//         }
         
-        display: block;
-    }
+//     }
+//     .social-media
+//     {
+//         @media screen and  (max-width:480)
+//         {
+//             margin-right: 0;
+//              margin-bottom: 72px;
+//         }
+      
+//     }
+//     .label-footer
+//     {
+//         @media screen and  (max-width:480)
+//         {
+//             margin-left: 43%;
+//         }
+      
+//     }
+//     .button-footer
+//     {
+//         @media screen and  (max-width:480)
+//         {
+//             margin-top: 0;
+//         }
+       
+//     }
+
+//     .menu-button
+//     {
+        
+        
+        
+//         @media screen and  (max-width:480)
+//         {
+//             display: inline-flex;
+//             margin: 0;
+//             padding: 0;
+//             border: none;
+//             background-color: transparent;
+//             cursor: pointer;
+//         }
+//     } 
+
+    
+//     .menu-container
+//     {
+//         @media screen and  (max-width:480)
+//         {
+//             display: none;
+//             position: absolute;
+//             top: 100%;
+//             left:0;
+//             width: 100%;
+//             height: 796px;
+        
+//             background-color: #FFFFFF;
+//             box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+//         }
+      
+//     }
+//     .navigation
+//     {
+//         @media screen and  (max-width:480)
+//         {
+//             flex-direction: column;
+//         }
+       
+//     }
+//     .item
+//     {
+//         @media screen and  (max-width:480)
+//         {
+//             margin-left: 40px;
+//             margin-right:0; 
+//         }
+      
+//     }
+    
+//     .contact
+//     {
+//         @media screen and  (max-width:480)
+//         {
+//             flex-direction: column-reverse;
+//         }
+        
+//     }
+//     .color-contact
+//     {
+//         @media screen and  (max-width:480)
+//         {
+//             color: var(--main-color-blue);
+//         }
+    
+//     }
+//     .menu-container.is-open
+//     {
+//         @media screen and  (max-width:480)
+//         {
+//             display: block;
+//         }
+      
+//     }
 
 
 
-    .menu-button  .icon-cross
-    {
-        
-        display: none;
-    }
+//     .menu-button  .icon-cross
+//     {
+//         @media screen and  (max-width:480)
+//         {
+//             display: none;
+//         }
+     
+//     }
     
-    .menu-button.is-open .icon-cross
-    {
-        
-        display: block;
-    }
+//     .menu-button.is-open .icon-cross
+//     {
+//         @media screen and  (max-width:480)
+//         {
+//             display: block;
+//         }
+       
+//     }
     
-    .menu-button.is-open .icon-menu
-    {
-        
-        display: none;
-    }
+//     .menu-button.is-open .icon-menu
+//     {
+//         @media screen and  (max-width:480)
+//         {
+//             display: none;
+//         }
+       
+//     }
     
-    .item.underline::after
-    {
-        display: none;
+//     .item.underline::after
+//     {
+//         @media screen and  (max-width:480)
+//         {
+//             display: none;
+//         }
+       
         
-    }
+//     }
 
-    .studio-color
-    {
-        color: var(--main-color-text);
-    }
+//     .studio-color
+//     {
+//         @media screen and  (max-width:480)
+//         {
+//             color: var(--main-color-text);
+//         }
+       
+//     }
+
+
+ .menu-container{
+    &.is-open
+ {
+    display: block;
+ }
+}

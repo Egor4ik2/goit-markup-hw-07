@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./scss/mobile.scss">
+    <link rel="stylesheet" href="./scss/mobile.css">
 </head>
 <body>
     <!--Шапка-->
@@ -16,27 +16,54 @@
 
         <div class="container main-nav">
             <a href="./index.html" class="studio-title" ><span class="color-web">web</span>studio</a> 
-         
-            <div class="menu-container is-open" id="menu-container" data-menu>
-                <nav class="main-nav">
-                        <ul class="list navigation">
-                            <li><a href="./index.html" class="item underline"><span class="studio-color">Studio</span></a></li>
-                            <li><a href="./portfolio.html" class="item">Portfolio</a></li>
-                            <li><a href="" class="item color-contact">Contacts</a></li>
-                        </ul>
-                        
-                </nav>
-                <ul class="list contact ">     
-                    <li> <a href="mailto:info@devstudio.com" class="adress"> info@devstudio.com</a></li> 
-                    <li> <a href="tel:+11(000)111-11-11" class="adress"> +11 (000) 111-11-11</a></li>  
-                </ul>
-            </div>
             <button type="button" class="menu-button is-open" aria-expanded="false" aria-controls="menu-container" data-menu-button>
                 <svg width="30px" height="18px"  aria-label="switch mobile menu">
                     <use class="icon-cross" href="./image/svg-image/symbol-defs.svg#icon-close-black"></use>
                     <use  class="icon-menu" href="./image/svg-image/symbol-defs.svg#icon-Vector-2-1"></use>
                 </svg>
             </button> 
+            <div class="menu-container is-open" id="menu-container" data-menu>
+                <nav class="main-nav">
+                        <ul class="list navigation">
+                            <li class="navigation-item"><a href="./index.html" class="item underline"><span class="studio-color">Studio</span></a></li>
+                            <li class="navigation-item"><a href="./portfolio.html" class="item">Portfolio</a></li>
+                            <li class="item-contact"><a href="" class="item color-contact">Contacts</a></li>     
+                            <ul class="list contact">
+                                <li class="mobile-item"> <a href="mailto:info@devstudio.com" class="adress mobile-mail"> info@devstudio.com</a></li> 
+                                <li class="mobile-item"> <a href="tel:+11(000)111-11-11" class="adress tel-mobile"> +11 (000) 111-11-11</a></li> 
+                                
+                            </ul>
+                            
+                        </ul>
+                        
+                </nav>
+                <ul class="list icon-mobile">
+                    <li> <a href="">
+                         <svg class="icon-team">
+                             <use href="./image/svg-image/symbol-defs.svg#icon-instagram" width="16" height="16" class="item-team" x="30%" y="30%"></use>   
+                         </svg>
+                     </a>
+                     </li>
+                     <li> <a href="">
+                         <svg class="icon-team">
+                             <use href="./image/svg-image/symbol-defs.svg#icon-twitter" width="16" height="13" class="item-team" x="30%" y="32%"></use>   
+                         </svg>
+                     </a>
+                     </li>
+                     <li> <a href="">
+                         <svg class="icon-team">
+                             <use href="./image/svg-image/symbol-defs.svg#icon-facebook" width="16" height="16" class="item-team" x="30%" y="30%"></use>   
+                         </svg>
+                     </a>
+                     </li>
+                     <li> <a href="">
+                         <svg class="icon-team">
+                             <use href="./image/svg-image/symbol-defs.svg#icon-linkedin" width="16" height="16" class="item-team" x="30%" y="30%"></use>   
+                         </svg>
+                     </a>
+                     </li>
+                 </ul>
+            </div>
         </div>       
     </header>
     <main>
