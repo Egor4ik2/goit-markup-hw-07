@@ -1473,6 +1473,7 @@ textarea
         display: flex;
        
         flex-direction: column;
+        justify-content: space-between;
     }
     .navigation-item
     {
@@ -1545,11 +1546,11 @@ textarea
     .tel-mobile
     {
     
-
+      
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 600;
-        font-size: 36px;
+        font-size: 34px;
         line-height: 40px;
     
 
@@ -1617,7 +1618,9 @@ textarea
         
         display: none;
     }
-    
+    .menu-container.is-open {
+        display: block;
+    }
     .item.underline::after
     {
         display: none;
@@ -1641,8 +1644,19 @@ textarea
     {
         margin-bottom:16px ;
     }
+
+    /* portfolio */
+
+    .image
+    {
+        max-width: 100%;
+    }
+    .card-border:not(:nth-child(3n)) {
+        margin-right: 0;
+    }
  }
 @media screen and (min-width: 482px){
+
     .container
     {
        
@@ -1691,6 +1705,7 @@ textarea
     .navigation
     {
         align-items: center;
+       
     }
     .item.underline::after
     {
@@ -1751,9 +1766,9 @@ textarea
     {
         justify-content: center;
     }
-
+   
 }
-@media screen and (min-width: 769px){
+@media screen and (min-width: 1200px){
     .container
     {
         width: 1200px;
@@ -1801,8 +1816,56 @@ textarea
         justify-content: center;
         flex-wrap: nowrap;
     }
-    } 
-   
+    .item.underline::after
+    {
+        
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 42px;  
+
+        display: block;
+        width: 48px;
+        height: 4px;
+        border-radius: 2px;
+
+        background: #4D5AE5; 
+    }
+    .section
+    {
+        display: inline-block;
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    .recomends>li:not(:first-child)
+    {
+        margin-left: 24px;
+    }
+    .recomends > li:nth-child(-n + 2) {
+        margin: 0;
+    
+    }
+    .footer-div.social-media
+    {
+        margin-bottom: 34px;
+        margin-right: 80px;
+    }
+    .footer-logo
+    {
+        margin-bottom: 0;
+    }
+    .footer .footer-div
+    {
+        align-items: flex-start;
+    }
+    form > .form-footer
+    {
+        margin-bottom: 36px;
+    }
+}
+
 
 
 
