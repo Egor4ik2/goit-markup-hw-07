@@ -164,7 +164,17 @@ textarea
     color: var(--main-color-focus);
 }
 
-
+.item.underline-portfolio::after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 54px;
+    display: block;
+    width: 55px;
+    height: 4px;
+    border-radius: 2px;
+    background: #4D5AE5;
+}
 
 .item.underline::after
 {
@@ -1308,6 +1318,10 @@ textarea
  
 
  @media screen and (max-width: 481px){
+    .item.underline-portfolio::after
+    {
+        display: none;
+    }
     .container
     {
     
@@ -1408,7 +1422,7 @@ textarea
     }
     .form-footer
     {
-        
+        width: 100%;
         flex-direction: column;
     }
 
@@ -1431,7 +1445,7 @@ textarea
     .label-footer
     {
         
-        margin-left: 43%;
+        margin-left: 36%;
     }
     .button-footer
     {
@@ -1448,13 +1462,14 @@ textarea
         border: none;
         background-color: transparent;
         cursor: pointer;
+
     } 
 
     
     .menu-container
     {
-        
-       display: none;
+        z-index: 100;
+        display: none;
         position: absolute;
         top: 100%;
         left:0;
@@ -1597,6 +1612,7 @@ textarea
 
     
         height: 48px;
+
     }
     
 
@@ -1633,7 +1649,10 @@ textarea
 
     /* portfolio adaptive code */
 
- 
+    .card-border:nth-child(n + 6) {
+        margin-bottom: 48px;
+    }
+
     .nav-portfolio
     {
         flex-wrap: wrap;
@@ -1766,6 +1785,33 @@ textarea
     {
         justify-content: center;
     }
+   /* portfolio */
+   .card-border:not(:nth-child( n + 6 ))
+   {
+    margin-right: 0;
+    margin-bottom: 72px;
+   }
+   .card-border:not(:nth-child(3n))
+   {
+    margin-right: 0;
+   }
+    .image
+    {
+        max-width: 100%;
+    }
+    .card-border:nth-child(2n + 1)
+    {
+        margin-right: 24px;
+    }
+    
+    .card-border:nth-child(n + 7)
+    {
+        margin-bottom: 72px;
+    }
+    .card-border
+    {
+        width: 356px;
+    }
    
 }
 @media screen and (min-width: 1200px){
@@ -1864,6 +1910,35 @@ textarea
     {
         margin-bottom: 36px;
     }
+    /* portfolio */
+    .image
+    {
+        max-width: 100%;
+    }
+    .card-border
+{
+    width: 360px;
+    margin-bottom: 48px;
+    
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) ;
+}
+
+.card-border:nth-child(n + 7)
+{
+    margin-bottom: 0;
+}
+
+.card-border:not(:nth-child(3n))
+{
+    margin-right: 24px;
+    
+}
+.item.underline-portfolio::after
+{
+    top: 42px;
+}
 }
 
 
