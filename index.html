@@ -10,69 +10,41 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./scss/mobile.css">
 </head>
-<body>
+<body> 
     <!--Шапка-->
     <header class="header">
 
         <div class="container main-nav">
             <a href="./index.html" class="studio-title" ><span class="color-web">web</span>studio</a> 
-            <button type="button" class="menu-button is-open" aria-expanded="false" aria-controls="menu-container" data-menu-button>
-                <svg width="30px" height="18px"  aria-label="switch mobile menu">
-                    <use class="icon-cross" href="./image/svg-image/symbol-defs.svg#icon-close-black"></use>
-                    <use  class="icon-menu" href="./image/svg-image/symbol-defs.svg#icon-Vector-2-1"></use>
-                </svg>
-            </button> 
-            <div class="menu-container is-open" id="menu-container" data-menu>
-                <nav class="main-nav">
+         
+                <nav class="main-nav main-nav-mobile">
                         <ul class="list navigation">
                             <li class="navigation-item"><a href="./index.html" class="item underline"><span class="studio-color">Studio</span></a></li>
                             <li class="navigation-item"><a href="./portfolio.html" class="item">Portfolio</a></li>
                             <li class="item-contact"><a href="" class="item color-contact">Contacts</a></li>     
-                            <ul class="list contact">
-                                <li class="mobile-item"> <a href="mailto:info@devstudio.com" class="adress mobile-mail"> info@devstudio.com</a></li> 
-                                <li class="mobile-item"> <a href="tel:+11(000)111-11-11" class="adress tel-mobile"> +11 (000) 111-11-11</a></li> 
-                                
-                            </ul>
-                            
                         </ul>
                         
                 </nav>
-                <ul class="list icon-mobile">
-                    <li> <a href="">
-                         <svg class="icon-team">
-                             <use href="./image/svg-image/symbol-defs.svg#icon-instagram" width="16" height="16" class="item-team" x="30%" y="30%"></use>   
-                         </svg>
-                     </a>
-                     </li>
-                     <li> <a href="">
-                         <svg class="icon-team">
-                             <use href="./image/svg-image/symbol-defs.svg#icon-twitter" width="16" height="13" class="item-team" x="30%" y="32%"></use>   
-                         </svg>
-                     </a>
-                     </li>
-                     <li> <a href="">
-                         <svg class="icon-team">
-                             <use href="./image/svg-image/symbol-defs.svg#icon-facebook" width="16" height="16" class="item-team" x="30%" y="30%"></use>   
-                         </svg>
-                     </a>
-                     </li>
-                     <li> <a href="">
-                         <svg class="icon-team">
-                             <use href="./image/svg-image/symbol-defs.svg#icon-linkedin" width="16" height="16" class="item-team" x="30%" y="30%"></use>   
-                         </svg>
-                     </a>
-                     </li>
-                 </ul>
-            </div>
+                <ul class="list contact">
+                    <li class="mobile-item"> <a href="mailto:info@devstudio.com" class="adress mobile-mail"> info@devstudio.com</a></li> 
+                    <li class="mobile-item"> <a href="tel:+11(000)111-11-11" class="adress tel-mobile"> +11 (000) 111-11-11</a></li> 
+                    
+                </ul>
+                <button type="button" class="menu-toggle js-open-menu button-menu-item " aria-expanded="false" aria-controls="mobile-menu" >
+                    <svg width="30px" height="18px"  aria-label="switch mobile menu">
+                      
+                        <use  class="icon-menu" href="./image/svg-image/symbol-defs.svg#icon-Vector-2-1"></use>
+                    </svg>
+                </button> 
         </div>       
     </header>
     <main>
             <!--Solutions-->
                 <section class="section-title overlay ">
-                  
+                    <div class="container">  
                             <h1 class="title-h-one">Effective Solutions for Your Business</h1>
                             <button type="button"  class="button-h-one" data-modal-open>Order Service</button>
-                 
+                    </div>
                 </section>
             <section class="section-h-two ">
                 <div class="container">    
@@ -268,6 +240,7 @@
             <!--Спонсор-->
 
             <section class="container section-customers">
+                 <div class="container">  
             <h1 class="customers-h-one">Customers</h1>  
             <ul class="list customers">
                 <li class="customers-father">
@@ -313,6 +286,7 @@
                     </a>
                 </li>
             </ul>
+            </div>
             </section>
             
     </main>
@@ -426,14 +400,59 @@
             </form>
         </div>
     </div>
-
+    <div class="menu-container js-menu-container" id="mobile-menu" >
+        <button type="button" class="menu-toggle js-close-menu"   >
+            <svg width="30px" height="18px"  aria-label="switch mobile menu">
+                <use class="icon-cross" href="./image/svg-image/symbol-defs.svg#icon-close-black"></use>
+            </svg>
+        </button>
+       
+    <ul class="list mobile-menu">
+        <li class="nav-item"><a href="./index.html" class="item underline"><span class="studio-color">Studio</span></a></li>
+        <li class="nav-item"><a href="./portfolio.html" class="item">Portfolio</a></li>
+        <li ><a href="" class="item color-contact">Contacts</a></li>     
+    </ul>
+    <ul class="list mobile-adress">
+        <li class="mobile-adress-mail"> <a href="mailto:info@devstudio.com" class="item-mail"> info@devstudio.com</a></li> 
+        <li class="mobile-adress-tel"> <a href="tel:+11(000)111-11-11" class="tel-item"> +11 (000) 111-11-11</a></li> 
+    </ul>
+   
+    <ul class="list icon-mobile">
+        <li> <a href="">
+             <svg class="icon-team">
+                 <use href="./image/svg-image/symbol-defs.svg#icon-instagram" width="16" height="16" class="item-team" x="30%" y="30%"></use>   
+             </svg>
+         </a>
+         </li>
+         <li> <a href="">
+             <svg class="icon-team">
+                 <use href="./image/svg-image/symbol-defs.svg#icon-twitter" width="16" height="13" class="item-team" x="30%" y="32%"></use>   
+             </svg>
+         </a>
+         </li>
+         <li> <a href="">
+             <svg class="icon-team">
+                 <use href="./image/svg-image/symbol-defs.svg#icon-facebook" width="16" height="16" class="item-team" x="30%" y="30%"></use>   
+             </svg>
+         </a>
+         </li>
+         <li> <a href="">
+             <svg class="icon-team">
+                 <use href="./image/svg-image/symbol-defs.svg#icon-linkedin" width="16" height="16" class="item-team" x="30%" y="30%"></use>   
+             </svg>
+         </a>
+         </li>
+    </ul>
+  
+            
+    </div>
 
     <!-- js -->
 
     <script src="./js/modal.js"></script>
 
-    <script src="./js/mobile-menu.js"></script>
+    <script defer src="./js/mobile-menu.js"></script>
     
-    <script src="./js/menu.js"></script>
+    <!-- <script src="./js/menu.js"></script> -->
 </body>
 </html>
