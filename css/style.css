@@ -1462,7 +1462,10 @@ textarea
         margin-top: 0;
     }
 
-   
+   .color-contact
+   {
+    color: #4D5AE5;
+   }
   
     .menu-container .menu-toggle {
         position: absolute;
@@ -1573,6 +1576,7 @@ textarea
     .tel-item
     {
         text-decoration: none;
+        color: #4D5AE5;
     }
     .item-mail
     {
