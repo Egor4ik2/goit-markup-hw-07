@@ -1315,10 +1315,7 @@ textarea
  
 
  @media screen and (max-width: 481px){
-    /* body 
-    {
-        overflow: hidden;
-    } */
+  
     .main-nav
     {
         justify-content: space-between;
@@ -1328,8 +1325,8 @@ textarea
     }
     .menu-toggle
     {
-        min-height: 40px;
-        min-width: 40px;
+        min-height: 25px;
+        min-width: 25px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1365,12 +1362,7 @@ textarea
         
         position: relative;
     }
-    /* .header > .container 
-    {
-        
-        justify-content: space-between;
-    }
-    */
+   
 
   
    
@@ -1440,9 +1432,8 @@ textarea
         
         margin-right: 0;
     }
-    .footer-logo > .text
+    .footer-div
     {
-        
         margin-bottom: 72px;
     }
     .social-media
@@ -1612,23 +1603,7 @@ textarea
     
 
 
-    /* .menu-button  .icon-cross
-    {
-        
-        display: none;
-    }
     
-    .menu-button.is-open .icon-cross
-    {
-        
-        display: block;
-    }
-    
-    .menu-button.is-open .icon-menu
-    {
-        
-        display: none;
-    } */
     .menu-container.is-open {
         display: block;
     }
@@ -1641,7 +1616,34 @@ textarea
     {
         color: var(--main-color-text);
     }
-
+    
+    .recomends-p
+    {
+        text-align: start;
+    }
+    .section-h-two{
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+    .section-h-three
+    {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+    .section-customers
+    {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+    .customers
+    {
+        row-gap: 72px;
+    }
+    .footer
+    {
+        padding-top:96px ;
+        padding-bottom: 96px;
+    }
     /* portfolio adaptive code */
 
     .card-border:nth-child(n + 6) {
@@ -1660,7 +1662,15 @@ textarea
     }
 
     /* portfolio */
-
+    .filters
+    {
+        justify-content: center;
+    }
+    .section-portfolio
+    {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
     .image
     {
         max-width: 100%;
@@ -1668,7 +1678,10 @@ textarea
     .card-border:not(:nth-child(3n)) {
         margin-right: 0;
     }
- 
+    .card-border:last-child
+    {
+        margin: 0;
+    }
 @media screen and (min-width: 768px){
     
     .menu-toggle {
@@ -1803,7 +1816,7 @@ textarea
     }
    .footer-logo
    {
-    margin-bottom: 72px;
+
     margin-right: 24px;
    }
    .social-media
