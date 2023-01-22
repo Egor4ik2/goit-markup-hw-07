@@ -2101,20 +2101,26 @@ textarea
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) ;
     }
 
-.card-border:nth-child(n + 7)
-{
-    margin-bottom: 0;
-}
+   
 
-.card-border:not(:nth-child(3n))
-{
-    margin-right: 24px;
-    
-}
-.item.underline-portfolio::after
-{
-    top: 42px;
-}
+    .item.underline-portfolio::after
+    {
+        top: 42px;
+    }
+    .card-border:nth-child(2n + 1)
+    {
+        margin: 0;
+    }
+    .card-border:nth-child(n + 7)
+    {
+        margin-bottom: 0;
+    }
+
+    .card-border:not(:nth-child(3n))
+    {
+        margin-right: 24px;
+        
+    }
 }
 
 
