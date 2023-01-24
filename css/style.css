@@ -2073,7 +2073,35 @@ textarea
         padding-top: 112px;
         padding-bottom: 108px;
     }
-    
+   .customers-item
+   {
+    width: 168px;
+   }
+  .customers-item > .mobile-costumer-first
+   {
+       
+       transform: translateX(5px);
+   }
+    .customers-item > .mobile-costumer-second
+   {
+       transform: translateX(5px);
+   }
+    .customers-item > .mobile-costumer-third
+   {
+       transform: translateX(0px);
+   }
+    .customers-item > .mobile-costumer-four
+   {
+       transform: translateX(10px);
+   }
+    .customers-item > .mobile-costumer-five
+   {
+       transform: translateX(0px);
+   }
+   .customers-item > .mobile-costumer
+   {
+       transform: translateX(10px);
+   }
 }
 
     
