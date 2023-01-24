@@ -2102,7 +2102,7 @@ textarea
    {
        transform: translateX(10px);
    }
-   .form-input
+   .input-footer
    {
     width: 264px;
    }
@@ -2355,7 +2355,7 @@ textarea
     {
         width: 168px;
     }
-    .form-input
+    .input-footer
     {
         width: 264px;
     }
