@@ -1315,9 +1315,33 @@ textarea
  
 
  @media screen and (max-width: 767px){
+
     .overlay
     {
+        margin-left: auto;
+        margin-right: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),  url(../image/adaptive-images/Dark-bg-mobile.png);
         height:432px;
+        max-width: 575px;
+    }
+    @media (min-resolution:2dppx)
+    {
+        .overlay
+        {
+            margin-left: auto;
+            margin-right: auto;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),  url(../image/adaptive-images/Dark-bg-mobile-2x.jpg);
+            height:432px;
+            max-width: 575px;
+        }
     }
     .main-nav
     {
@@ -1750,7 +1774,30 @@ textarea
 @media screen and (min-width: 767px){
     .overlay
     {
-        height: 436px;
+        margin-left: auto;
+        margin-right: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),  url(../image/adaptive-images/Dark-bg-tablet.png);
+        height:432px;
+        max-width: 1199px;
+    }
+    @media (min-resolution:2dppx)
+    {
+        .overlay
+        {
+            margin-left: auto;
+            margin-right: auto;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),  url(../image/adaptive-images/Dark-bg-tablet-2x.jpg);
+            height:432px;
+            max-width: 1199px;
+        }
     }
     .header
     {
@@ -2034,7 +2081,30 @@ textarea
 @media screen and (min-width: 1200px){
     .overlay
     {
+        margin-left: auto;
+        margin-right: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),  url(../image/adaptive-images/people-office-pc.jpg);
         height:600px;
+        min-width: 1200px;
+    }
+    @media (min-resolution:2dppx)
+    {
+        .overlay
+        {
+            margin-left: auto;
+            margin-right: auto;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),  url(../image/adaptive-images/people-officepc-2x.jpg);
+            height:600px;
+            min-width: 1200px;
+        }
     }
     .header
     {
