@@ -984,8 +984,6 @@ textarea
 
 .input-footer
 {
-    
-    margin-top:16px ;
     width:264px ;
     height: 40px;
     padding-left:16px;
@@ -1001,8 +999,6 @@ textarea
 
 .button-footer
 {
-   
-    margin-top: 16px;
     width: 165px;
     height: 40px;
     background: #4D5AE5;
@@ -1324,7 +1320,7 @@ textarea
         background-position: center;
         background-size: cover;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),  url(../image/adaptive-images/Dark-bg-mobile.png);
+        rgba(46, 47, 66, 0.7)),  url(../image/adaptive-images/dark-bg-mobile.png);
         height:432px;
         max-width: 575px;
     }
@@ -1338,7 +1334,7 @@ textarea
             background-position: center;
             background-size: cover;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)),  url(../image/adaptive-images/Dark-bg-mobile-2x.jpg);
+            rgba(46, 47, 66, 0.7)),  url(../image/adaptive-images/dark-bg-mobile-2x.jpg);
             height:432px;
             max-width: 575px;
         }
@@ -1780,7 +1776,7 @@ textarea
         background-position: center;
         background-size: cover;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),  url(../image/adaptive-images/Dark-bg-tablet.png);
+        rgba(46, 47, 66, 0.7)),  url(../image/adaptive-images/dark-bg-tablet.png);
         height:432px;
         max-width: 1199px;
     }
@@ -1794,7 +1790,7 @@ textarea
             background-position: center;
             background-size: cover;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)),  url(../image/adaptive-images/Dark-bg-tablet-2x.jpg);
+            rgba(46, 47, 66, 0.7)),  url(../image/adaptive-images/dark-bg-tablet-2x.jpg);
             height:432px;
             max-width: 1199px;
         }
@@ -1977,7 +1973,7 @@ textarea
     }
     .recomends > li:nth-child(-n + 2)
     {
-        margin-bottom:64px
+        margin-bottom:72px
     }
     .customers
     {
@@ -2062,6 +2058,7 @@ textarea
    }
    .form-footer
     {
+        margin-top: 16px;
         margin-right:37px ;
     }
     .title-h-one
@@ -2227,7 +2224,6 @@ textarea
     }
     .footer-div.social-media
     {
-        margin-bottom: 34px;
         margin-right: 80px;
     }
     .footer-logo
@@ -2240,10 +2236,7 @@ textarea
     }
   
     
-    form > .form-footer
-    {
-        margin-bottom: 36px;
-    }
+ 
     .recomends-p
     {
         width: 264px;
@@ -2346,6 +2339,7 @@ textarea
     {
         justify-content: flex-start;
         flex-wrap: nowrap;
+        align-items: baseline;
     }
     .recomends > li >  .color-title
     {
@@ -2358,6 +2352,10 @@ textarea
     .input-footer
     {
         width: 264px;
+    }
+    .footer-div.social-media
+    {
+        margin-bottom: 0;
     }
 }
 
